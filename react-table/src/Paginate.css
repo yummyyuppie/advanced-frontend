@@ -1,0 +1,25 @@
+.pagination_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+li{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background: #012B39;
+    color: #f0f0f0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.active {
+    background-color: #f0f0f0;
+    color: #012B39;
+}
